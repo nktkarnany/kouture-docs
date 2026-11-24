@@ -1,0 +1,63 @@
+name: Support request
+description: Ask a question or report a problem with the Kouture theme
+title: "[Support] "
+labels: ["support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for using Kouture. We reply within two business days.
+
+        **This page is public.** Do not post passwords, staff account details, collaborator codes or customer information. If we need access to your store, we will ask you to send a collaborator request.
+  - type: input
+    id: store
+    attributes:
+      label: Store URL
+      description: Your myshopify.com address, for example your-store.myshopify.com
+      placeholder: your-store.myshopify.com
+    validations:
+      required: true
+  - type: dropdown
+    id: preset
+    attributes:
+      label: Preset
+      options:
+        - Kouture
+        - Zari
+        - Khadi
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Theme version
+      description: Shown in Online Store, Themes, under the theme name
+      placeholder: "0.1.0"
+  - type: dropdown
+    id: type
+    attributes:
+      label: Request type
+      options:
+        - Question about a setting or section
+        - Something looks or works wrong
+        - Feature request
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe what you expected and what you saw. Include the page URL and the steps to see the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag images here if they help explain the problem.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Safari on iPhone 15

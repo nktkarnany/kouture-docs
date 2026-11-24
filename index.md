@@ -111,4 +111,8 @@ Kouture uses Shopify customer accounts through the account component in the head
 
 ## 7. Support
 
-Support requests are answered within two business days. The support contact form is linked from the Kouture listing on the Shopify Theme Store.
+[Open a support request](https://github.com/nktkarnany/kouture-docs/issues/new?template=support.yml). It needs a free GitHub account.
+
+- We reply within two business days.
+- Support requests are public. Don't post passwords, staff account details or customer information. If we need to see your store, we'll ask you to send a collaborator request.
+- Check the sections above first; most setup questions are answered there.
